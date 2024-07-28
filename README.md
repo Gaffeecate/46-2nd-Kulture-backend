@@ -58,8 +58,10 @@
 (users - bid - events) : 한 이벤트는 여러 사용자의 입찰 리스트에 들어가 있을 수 있고, 한 사용자는 여러 이벤트에 대한 입찰을 할 수 있다.
 (order - order_events - events): 한번의 주문에 여러 이벤트가 포함될 수 있고, 한 이벤트는 여러 주문에 포함 될 수 있다.
 
-https://raw.githubusercontent.com/wecode-bootcamp-korea/46-2nd-Kulture-backend/b964bbe5b5c64017a357c8983b372aa3da6163d8/Kulture%20ERD.png
-
+<p align="center">
+  <img src="[이미지URL](https://raw.githubusercontent.com/wecode-bootcamp-korea/46-2nd-Kulture-backend/b964bbe5b5c64017a357c8983b372aa3da6163d8/Kulture%20ERD.png
+)">
+</p>
 
 ## 5. 기술스택
 ### Frontend
