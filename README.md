@@ -51,7 +51,16 @@
 
 
 ## 4. Database
-- 1:N 관계: (users, bid), (events, bid), (users, orders), (users, event_token_history), (categories, events), (countries, events), (age_ranges, events) - 한 사용자가 여러 입찰, 주문을 할수 있고 여러 토큰 거래내역을 가질 수 있다. 또한 카테고리, 국가, 연령범위에 여러 이벤트가 속할 수 있다.
+- 1:N 관계:
+  (users, bid),
+  (events, bid),
+  (users, orders),
+  (users, event_token_history),
+  (categories, events),
+  (countries, events),
+  (age_ranges, events)
+ 한 사용자가 여러 입찰, 주문을 할수 있고 여러 토큰 거래내역을 가질 수 있다. 또한 카테고리, 국가, 연령범위에 여러 이벤트가 속할 수 있다.
+ 
 - N:N 관계: 
 1. (users - wishlists - events) : 한 이벤트는 여러 사용자의 위시리스트에 들어가 있을수 있고, 한 유저는 여러 이벤트를 위시리스트에 담을 수 있음.
 2. (users - reviews - events) : 한 이벤트는 여러 사용자의 리뷰에 들어가 있을수 있고, 한 사용자는 여러 이벤트에 대한 리뷰를 작성할 수 있음.
