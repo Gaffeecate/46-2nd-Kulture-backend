@@ -50,7 +50,7 @@
 3. 다중입찰: 한 사용자는 한 이벤트, 즉 하나의 경매물품에 대하여 여러번 가격제시를 할 수도 있고, 여러 이벤트에도 입찰을 할 수가 있다.
 
 
-## 4. Database
+## 5. Database
 - 1:N 관계:
   (users, bid),
   (events, bid),
@@ -71,13 +71,13 @@
   <img src="https://raw.githubusercontent.com/wecode-bootcamp-korea/46-2nd-Kulture-backend/b964bbe5b5c64017a357c8983b372aa3da6163d8/Kulture%20ERD.png" alt="ERD Diagram" width="800"/>
 </p>
 
-## 5. 기술스택
+## 6. 기술스택
 ### Frontend
 |JavaScript|React|Styled-Components|esLint|Prettier|
 |:---:|:---:|:---:|:---:|:---:|
 | <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://www.styled-components.com/atom.png" width="65" height="65" /></div> | <img src="https://techstack-generator.vercel.app/eslint-icon.svg" alt="icon" width="65" height="65" /> | <img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="65" height="65" /> |
 
-### Backend
+### 7. Backend
 
 |JavaScript|Node.js|MySQL|
 |:---:|:---:|:---:|
@@ -85,7 +85,7 @@
 
 
 
-## ⚙️ 협업툴
+## 8. 협업툴
 
 <div>
 <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/>
